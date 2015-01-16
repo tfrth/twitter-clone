@@ -66,6 +66,10 @@ body {
 	font-weight: bold;
 }
 
+/*#tweet-controls {
+	visibility: hidden;  
+}*/
+
 /* PAGE STRUCTURE */
 #page-container {
 	padding: 54px 14px 15px;
@@ -129,6 +133,8 @@ body {
 	}
 		#tweet-controls {
 			text-align: right;
+			visibility: hidden;
+			
 		}
 			#tweet-controls div {
 				display: inline-block;
